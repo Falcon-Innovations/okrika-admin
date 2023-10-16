@@ -1,14 +1,34 @@
 .custom-scrollbar::-webkit-scrollbar-track {
-            -webkit-box-shadow: transparent;
-            border-radius: 10px;
-            background-color: #F5F5F5;
+    -webkit-box-shadow: transparent;
+    border-radius: 10px;
+    background-color: #F5F5F5;
 }
+
 .custom-scrollbar::-webkit-scrollbar {
-            width: 8px;
-            background-color: #F5F5F5;
+    width: 8px;
+    background-color: #F5F5F5;
+
 }
+
 .custom-scrollbar::-webkit-scrollbar-thumb {
-            border-radius: 10px;
-            -webkit-box-shadow: transparent;
-            background-color: #E3D4F3;
+    border-radius: 10px;
+    -webkit-box-shadow: transparent;
+    background-color: #E3D4F3;
 }
+
+.background-color {
+    background: linear-gradient(243deg, rgba(112, 79, 56, 0.83) 0%, rgba(102, 72, 51, 0.85) 50%, rgba(80, 56, 40, 0.85) 100%), #1E1E1E;
+    height: 100vh;
+}
+
+
+.background {
+    background: #FFF;
+}
+
+.eye{
+    position: absolute;
+    top:54%;
+    right:20%
+}
+
