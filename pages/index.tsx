@@ -1,29 +1,3 @@
-
-
-
-
-// export default function Home() {
-
-
-//   return (
-
-//       <div className="bg-violet-900 flex items-center " >
-//         <h1>Okrika Admin</h1>
-
-//         <div className="mx-96">
-
-
-
-
-
-//       </div>
-//     </div>
-
-
-
-//   );
-// }
-
 import Cookies from "js-cookie";
 import { useRouter } from "next/router";
 import eye from '../images/eye.png';
@@ -75,4 +49,3 @@ export default function Home() {
   )
 
 }
-console.log(eye)
